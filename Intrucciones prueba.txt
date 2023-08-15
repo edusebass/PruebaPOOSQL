@@ -1,0 +1,6 @@
+IMPLEMENTAR UN CRUD
+para una tienda
+
+el modelo de la base de datos debe tener dos tablas interconectadas
+
+9:00 M
