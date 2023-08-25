@@ -11,7 +11,8 @@ public class eliminar {
     private JButton regresarButton;
     public JPanel rootdelete;
 
-    static final String DB_URL = "jdbc:sqlserver://localhost:1433;databaseName=tienda;instance=SQLEXPRESS;encrypt=false;trustServerCertificate=true;";
+    static final String DB_URL = "jdbc:sqlserver://localhost:1433;databaseName=tienda;instance=SQLEXPRESS;" +
+            "Sencrypt=false;trustServerCertificate=true;";
     public static final String USER = "userbd";
     public static final String PASSWORD = "123";
 
