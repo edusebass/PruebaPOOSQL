@@ -95,7 +95,7 @@
           </grid>
         </constraints>
         <properties>
-          <text value="Ingrese nombre de producto"/>
+          <text value="Ingrese id del producto"/>
         </properties>
       </component>
       <component id="b789b" class="javax.swing.JTextField" binding="fieldproducto">
