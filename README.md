@@ -33,7 +33,9 @@ La aplicacion realiza un CRUD con productos y proveedores.
   
 - Aplicacion
   - Seccion Principal
+  
   ![img_8.png](img/img_8.png)
+  
   - Ver producto
   
   | ![img_9.png](img/img_9.png)            |
