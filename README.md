@@ -1,10 +1,26 @@
 # JavaAppTienda
-Prueba atrasada Java Eduardo Almachi POO EPN
 
-MySQL trabajo
+Realizado por: Eduardo Almachi
 
-![image](https://github.com/edusebass/JavaAppTienda/assets/108561115/c9005edb-74e4-4027-ac8c-a5ee4b87279d)
+Aplicacion credad con Java y conectada a SQL SERVER
 
-![image](https://github.com/edusebass/JavaAppTienda/assets/108561115/9066693c-6957-4d14-a93a-565a1111c8f4)
+---
+ Configuracion SQL SERVER
+  - Debemos habilitar el puerto de conexion, realizado esto se habilitara la conexion.
 
-![image](https://github.com/edusebass/JavaAppTienda/assets/108561115/3876c3fa-f6ae-4d95-b7ef-39c53284692e)
+  | ![img_2.png](img_2.png)                                 | ![img_1.png](img_1.png) | ![img_3.png](img_3.png)                                             |
+  |---------------------------------------------------------|-------------------------|---------------------------------------------------------------------|
+  | Entramos SQL SERVER CONFIGURATION y vamos a esta opcion | Habilitamos todo en yes | Nuevamente aqui habilatamos todo si y que los puertos esten en 1433 |
+  
+  
+  
+
+
+- Conexion JAVA SQL SERVER
+  - Para conectar a SQL SERVER debemos descargar el driver e instalarlo en nuestro proyecto.
+  ![img.png](img/img.png)
+  
+  - Realizado esto debemos configurar las variables en el proyecto.
+    - Especificamos puertos y usuarios como contraseña creados previamente.
+  ![img.png](img.png)
+  
