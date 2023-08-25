@@ -18,9 +18,9 @@ public class ver {
 
     //
     public String producto;
-    public static final String DB_URL = "jdbc:mysql://localhost/tienda";
-    public static final String USER = "root";
-    public static final String PASSWORD = "root_bas3";
+    static final String DB_URL = "jdbc:sqlserver://localhost:1433;databaseName=tienda;instance=SQLEXPRESS;encrypt=false;trustServerCertificate=true;";
+    public static final String USER = "userbd";
+    public static final String PASSWORD = "123";
 
 
     public ver() {
@@ -42,7 +42,7 @@ public class ver {
                             "JOIN\n" +
                             "    Proveedores pr ON p.id_proveedor = pr.id\n" +
                             "WHERE\n" +
-                            "    p.nombre = ?";
+                            "    p.id = ?";
                     PreparedStatement stmt = conn.prepareStatement(QUERY);
                     stmt.setString(1, producto);
                     ResultSet rs = stmt.executeQuery();
@@ -71,7 +71,9 @@ public class ver {
                         JOptionPane.showMessageDialog(rootver, "Producto no existe");
                     }
                 } catch (SQLException x) {
-                    throw new RuntimeException(x);
+
+                    System.out.println("Error al intentar conectar a la base de datos.");
+                    x.printStackTrace();  // Imprimir detalles de la excepción en la consola
                 }
             }
         });

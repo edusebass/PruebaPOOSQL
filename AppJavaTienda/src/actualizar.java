@@ -18,10 +18,9 @@ public class actualizar {
     public JPanel rootupdate;
     private JTextField textField7id;
 
-    public static final String DB_URL = "jdbc:mysql://localhost/tienda";
-    public static final String USER = "root";
-    public static final String PASSWORD = "root_bas3";
-
+    static final String DB_URL = "jdbc:sqlserver://localhost:1433;databaseName=tienda;instance=SQLEXPRESS;encrypt=false;trustServerCertificate=true;";
+    public static final String USER = "userbd";
+    public static final String PASSWORD = "123";
 
     public actualizar() {
         actualizarProductoButton.addActionListener(new ActionListener() {
